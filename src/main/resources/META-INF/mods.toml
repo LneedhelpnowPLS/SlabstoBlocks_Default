@@ -2,26 +2,23 @@ modLoader="javafml"
 loaderVersion="[43,)"
 license="MIT License"
 [[mods]]
-modId="slabstoblocks_createdeco"
+modId="slabstoblocks"
 version="${file.jarVersion}"
-displayName="Slabs to Blocks: Create Deco"
+displayName="Slabs to Blocks"
 logoFile="SlabstoBlocks_CreateDeco_Icon.png"
-credits="Idea for this mod was from the original Slabs to Blocks by Mars"
+credits="Idea for this mod was from the original Craft Slabs Back Into Blocks by Mars"
 authors="LneedhelpnowPLS"
 description='''
-Adds crafting recipes for Create Deco's slab related things, examples being:
-Crafting horizontal slabs back into blocks,
-Crafting vertical slabs back into blocks,
-Crafting vertical slabs straight from the blocks,
-And converting vertical slabs into horizontal slabs.
+Adds crafting recipes for Minecraft's default slabs.
+Please don't use this mod if you already have another mod using Deimos lib, it's just a waste.
 '''
-[[dependencies.slabstoblocks_createdeco]]
+[[dependencies.slabstoblocks]]
 modId="forge"
 mandatory=true
 versionRange="[43,)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.slabstoblocks_createdeco]]
+[[dependencies.slabstoblocks]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.19.2,1.20)"

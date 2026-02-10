@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:cast_iron_sheet_metal", "pattern": ["##"], "key": {"#": {"item": "createdeco:cast_iron_sheet_slab_vert"}}, "result": {"item": "createdeco:cast_iron_sheet_metal"}}

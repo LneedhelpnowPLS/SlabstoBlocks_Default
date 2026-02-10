@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:dean_long_bricks_slab_vert", "pattern": ["#", "#", "#"], "key": {"#": {"item": "createdeco:dean_long_bricks"}}, "result": {"count": 6, "item": "createdeco:dean_long_bricks_slab_vert"}}

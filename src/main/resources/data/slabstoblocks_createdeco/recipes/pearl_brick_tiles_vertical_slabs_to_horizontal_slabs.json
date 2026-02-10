@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:pearl_brick_tiles_slab", "pattern": ["###"], "key": {"#": {"item": "createdeco:pearl_brick_tiles_slab_vert"}}, "result": {"count": 3, "item": "createdeco:pearl_brick_tiles_slab"}}

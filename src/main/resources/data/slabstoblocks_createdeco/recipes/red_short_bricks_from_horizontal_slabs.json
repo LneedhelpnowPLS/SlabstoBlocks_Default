@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:red_short_bricks", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:red_short_bricks_slab"}}, "result": {"item": "createdeco:red_short_bricks"}}

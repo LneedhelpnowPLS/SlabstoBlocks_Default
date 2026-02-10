@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:andesite_sheet_metal", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:andesite_sheet_slab"}}, "result": {"item": "createdeco:andesite_sheet_metal"}}

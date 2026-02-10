@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:worn_long_bricks", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:worn_long_bricks_slab"}}, "result": {"item": "createdeco:worn_long_bricks"}}

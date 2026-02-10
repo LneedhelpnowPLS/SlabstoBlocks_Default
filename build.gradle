@@ -4,8 +4,8 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 version = '1.0.0-1.19.2'
-group = 'com.lneedhelpnowpls.slabstoblocks_createdeco'
-archivesBaseName = 'slabstoblocks_createdeco'
+group = 'com.lneedhelpnowpls.slabstoblocks'
+archivesBaseName = 'slabstoblocks'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
@@ -16,10 +16,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_createdeco'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
 
             mods {
-                slabstoblocks_createdeco {
+                slabstoblocks {
                     source sourceSets.main
                 }
             }
@@ -31,10 +31,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_createdeco'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
 
             mods {
-                slabstoblocks_createdeco {
+                slabstoblocks {
                     source sourceSets.main
                 }
             }
@@ -46,10 +46,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_createdeco'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
 
             mods {
-                slabstoblocks_createdeco {
+                slabstoblocks {
                     source sourceSets.main
                 }
             }
@@ -61,10 +61,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
 
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'slabstoblocks_createdeco', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'slabstoblocks', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                slabstoblocks_createdeco {
+                slabstoblocks {
                     source sourceSets.main
                 }
             }
@@ -82,18 +82,16 @@ repositories {
 }
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.3'
-    implementation fg.deobf("curse.maven:create-deco-509285:4554164")
-    implementation fg.deobf("curse.maven:create-328085:5797604")
 }
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "slabstoblocks_createdeco",
-                "Specification-Vendor"    : "slabstoblocks_createdeco",
+                "Specification-Title"     : "slabstoblocks",
+                "Specification-Vendor"    : "slabstoblocks",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "slabstoblocks_createdeco",
+                "Implementation-Vendor"   : "slabstoblocks",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

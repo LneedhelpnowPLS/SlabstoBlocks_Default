@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:gold_sheet_metal", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:gold_sheet_slab"}}, "result": {"item": "createdeco:gold_sheet_metal"}}

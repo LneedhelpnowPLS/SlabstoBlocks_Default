@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:dusk_bricks", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:dusk_bricks_slab"}}, "result": {"item": "createdeco:dusk_bricks"}}

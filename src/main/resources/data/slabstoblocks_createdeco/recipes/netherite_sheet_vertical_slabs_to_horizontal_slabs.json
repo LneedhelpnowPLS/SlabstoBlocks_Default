@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:netherite_sheet_slab", "pattern": ["###"], "key": {"#": {"item": "createdeco:netherite_sheet_slab_vert"}}, "result": {"count": 3, "item": "createdeco:netherite_sheet_slab"}}
