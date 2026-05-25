@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "createdeco:brass_sheet_metal", "pattern": ["#", "#"], "key": {"#": {"item": "createdeco:brass_sheet_slab"}}, "result": {"item": "createdeco:brass_sheet_metal"}}

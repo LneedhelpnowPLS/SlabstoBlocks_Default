@@ -4,8 +4,8 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 version = '1.0.0-1.19.2'
-group = 'com.lneedhelpnowpls.slabstoblocks'
-archivesBaseName = 'slabstoblocks'
+group = 'com.lneedhelpnowpls.slabstoblocks_default'
+archivesBaseName = 'slabstoblocks_default'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
@@ -16,10 +16,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_default'
 
             mods {
-                slabstoblocks {
+                slabstoblocks_default {
                     source sourceSets.main
                 }
             }
@@ -31,10 +31,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_default'
 
             mods {
-                slabstoblocks {
+                slabstoblocks_default {
                     source sourceSets.main
                 }
             }
@@ -46,10 +46,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'slabstoblocks'
+            property 'forge.enabledGameTestNamespaces', 'slabstoblocks_default'
 
             mods {
-                slabstoblocks {
+                slabstoblocks_default {
                     source sourceSets.main
                 }
             }
@@ -61,10 +61,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
 
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'slabstoblocks', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'slabstoblocks_default', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                slabstoblocks {
+                slabstoblocks_default {
                     source sourceSets.main
                 }
             }
@@ -86,12 +86,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "slabstoblocks",
-                "Specification-Vendor"    : "slabstoblocks",
+                "Specification-Title"     : "slabstoblocks_default",
+                "Specification-Vendor"    : "slabstoblocks_default",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "slabstoblocks",
+                "Implementation-Vendor"   : "slabstoblocks_default",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

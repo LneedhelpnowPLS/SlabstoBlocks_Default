@@ -2,23 +2,23 @@ modLoader="javafml"
 loaderVersion="[43,)"
 license="MIT License"
 [[mods]]
-modId="slabstoblocks"
+modId="slabstoblocks_default"
 version="${file.jarVersion}"
 displayName="Slabs to Blocks"
-logoFile="SlabstoBlocks_CreateDeco_Icon.png"
+logoFile="SlabstoBlocks.png"
 credits="Idea for this mod was from the original Craft Slabs Back Into Blocks by Mars"
 authors="LneedhelpnowPLS"
 description='''
 Adds crafting recipes for Minecraft's default slabs.
-Please don't use this mod if you already have another mod using Deimos lib, it's just a waste.
+Please don't use this mod if you already have another mod using Deimos lib, there's no point to do unless you want just the recipes for this and nothing else
 '''
-[[dependencies.slabstoblocks]]
+[[dependencies.slabstoblocks_default]]
 modId="forge"
 mandatory=true
 versionRange="[43,)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.slabstoblocks]]
+[[dependencies.slabstoblocks_default]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.19.2,1.20)"

@@ -1,1 +1,0 @@
-{"type": "minecraft:crafting_shaped", "group": "oak_planks", "pattern": ["#", "#"], "key": {"#": {"item": "oak_slab"}}, "result": {"item": "oak_planks"}}
